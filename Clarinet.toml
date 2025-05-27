@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/biomaker-discovery.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.intervention-testing]
+path = 'contracts/intervention-testing.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
